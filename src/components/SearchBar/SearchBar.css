@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  min-width: 570px;
+}
+
+.input {
+  flex: 1;
+  border-radius: 8px 0px 0px 8px;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: var(--css-black);
+  letter-spacing: 0.25px;
+}
+
+.button1 {
+  width: 66px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 8px 8px 0px;
+  color: var(--css-white);
+  border: 1px solid black;
+  cursor: pointer;
+}
