@@ -1,0 +1,20 @@
+.heroSection {
+  width: 100vw;
+  height: 270px;
+  background-color: var(--css-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroHeading {
+  width: 556px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--css-white);
+  font-weight: 600;
+  line-height: 30px;
+}
