@@ -1,3 +1,4 @@
+import AlbumGrid from "./components/AlbumGrid/AlbumGrid";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Navbar />
       <HeroSection />
+      <AlbumGrid />
     </div>
   );
 }

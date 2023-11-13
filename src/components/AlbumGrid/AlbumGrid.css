@@ -1,0 +1,29 @@
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 22px;
+  row-gap: 32px;
+}
+
+.album-header {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.album-header p {
+  color: var(--css-white);
+}
+
+.album-header button {
+  border: 0px;
+  cursor: pointer;
+  background-color: var(--css-black);
+}
+
+.album-header button p {
+  color: var(--css-primary);
+}

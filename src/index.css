@@ -20,6 +20,7 @@ body {
 html,
 body {
   height: 100%;
+  background-color: var(--css-black);
 }
 body {
   line-height: 1.5;

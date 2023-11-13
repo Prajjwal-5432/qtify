@@ -8,13 +8,13 @@
 }
 
 .heroHeading {
-  width: 556px;
+  width: 650px;
   height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--css-white);
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 30px;
 }
